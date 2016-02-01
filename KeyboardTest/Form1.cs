@@ -4115,11 +4115,6 @@ namespace KeyboardTest
             SendKeys.Send("{ENTER}");
         }
 
-        private void Space_Click(object sender, EventArgs e)
-        {
-            SendKeys.Send(" ");
-        }
-
         private void BTUp_Click(object sender, EventArgs e)
         {
             SendKeys.Send("{Up}");
