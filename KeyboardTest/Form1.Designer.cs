@@ -897,6 +897,7 @@
             this.Space.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Space.Name = "Space";
             this.Space.UseVisualStyleBackColor = false;
+            this.Space.Click += new System.EventHandler(this.Space_Click_1);
             // 
             // Form1
             // 

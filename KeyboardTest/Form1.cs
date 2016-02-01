@@ -4213,5 +4213,10 @@ namespace KeyboardTest
                 LAlt.BackColor = Color.White;
             }
         }
+
+        private void Space_Click_1(object sender, EventArgs e)
+        {
+            SendKeys.Send(" ");
+        }
     }
 }
