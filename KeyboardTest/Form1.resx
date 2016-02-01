@@ -1,0 +1,3001 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ESC.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ESC.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.25pt</value>
+  </data>
+  <data name="ESC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 11</value>
+  </data>
+  <data name="ESC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 32</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ESC.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ESC.Text" xml:space="preserve">
+    <value>ESC</value>
+  </data>
+  <data name="&gt;&gt;ESC.Name" xml:space="preserve">
+    <value>ESC</value>
+  </data>
+  <data name="&gt;&gt;ESC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ESC.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ESC.ZOrder" xml:space="preserve">
+    <value>87</value>
+  </data>
+  <data name="F1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="F1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.25pt</value>
+  </data>
+  <data name="F1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="F1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 11</value>
+  </data>
+  <data name="F1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 32</value>
+  </data>
+  <data name="F1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="F1.Text" xml:space="preserve">
+    <value>F1</value>
+  </data>
+  <data name="&gt;&gt;F1.Name" xml:space="preserve">
+    <value>F1</value>
+  </data>
+  <data name="&gt;&gt;F1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;F1.ZOrder" xml:space="preserve">
+    <value>86</value>
+  </data>
+  <data name="F2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="F2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.25pt</value>
+  </data>
+  <data name="F2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="F2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 11</value>
+  </data>
+  <data name="F2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 32</value>
+  </data>
+  <data name="F2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="F2.Text" xml:space="preserve">
+    <value>F2</value>
+  </data>
+  <data name="&gt;&gt;F2.Name" xml:space="preserve">
+    <value>F2</value>
+  </data>
+  <data name="&gt;&gt;F2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;F2.ZOrder" xml:space="preserve">
+    <value>85</value>
+  </data>
+  <data name="F3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="F3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.25pt</value>
+  </data>
+  <data name="F3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="F3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 11</value>
+  </data>
+  <data name="F3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 32</value>
+  </data>
+  <data name="F3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="F3.Text" xml:space="preserve">
+    <value>F3</value>
+  </data>
+  <data name="&gt;&gt;F3.Name" xml:space="preserve">
+    <value>F3</value>
+  </data>
+  <data name="&gt;&gt;F3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;F3.ZOrder" xml:space="preserve">
+    <value>84</value>
+  </data>
+  <data name="F4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="F4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.25pt</value>
+  </data>
+  <data name="F4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="F4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 11</value>
+  </data>
+  <data name="F4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 32</value>
+  </data>
+  <data name="F4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="F4.Text" xml:space="preserve">
+    <value>F4</value>
+  </data>
+  <data name="&gt;&gt;F4.Name" xml:space="preserve">
+    <value>F4</value>
+  </data>
+  <data name="&gt;&gt;F4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;F4.ZOrder" xml:space="preserve">
+    <value>83</value>
+  </data>
+  <data name="F5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="F5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.25pt</value>
+  </data>
+  <data name="F5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="F5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 11</value>
+  </data>
+  <data name="F5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 32</value>
+  </data>
+  <data name="F5.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="F5.Text" xml:space="preserve">
+    <value>F5</value>
+  </data>
+  <data name="&gt;&gt;F5.Name" xml:space="preserve">
+    <value>F5</value>
+  </data>
+  <data name="&gt;&gt;F5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;F5.ZOrder" xml:space="preserve">
+    <value>82</value>
+  </data>
+  <data name="F6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="F6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.25pt</value>
+  </data>
+  <data name="F6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="F6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 11</value>
+  </data>
+  <data name="F6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 32</value>
+  </data>
+  <data name="F6.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="F6.Text" xml:space="preserve">
+    <value>F6</value>
+  </data>
+  <data name="&gt;&gt;F6.Name" xml:space="preserve">
+    <value>F6</value>
+  </data>
+  <data name="&gt;&gt;F6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;F6.ZOrder" xml:space="preserve">
+    <value>81</value>
+  </data>
+  <data name="F7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="F7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.25pt</value>
+  </data>
+  <data name="F7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="F7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>496, 11</value>
+  </data>
+  <data name="F7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 32</value>
+  </data>
+  <data name="F7.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="F7.Text" xml:space="preserve">
+    <value>F7</value>
+  </data>
+  <data name="&gt;&gt;F7.Name" xml:space="preserve">
+    <value>F7</value>
+  </data>
+  <data name="&gt;&gt;F7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;F7.ZOrder" xml:space="preserve">
+    <value>80</value>
+  </data>
+  <data name="F8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="F8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.25pt</value>
+  </data>
+  <data name="F8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="F8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>561, 11</value>
+  </data>
+  <data name="F8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 32</value>
+  </data>
+  <data name="F8.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="F8.Text" xml:space="preserve">
+    <value>F8</value>
+  </data>
+  <data name="&gt;&gt;F8.Name" xml:space="preserve">
+    <value>F8</value>
+  </data>
+  <data name="&gt;&gt;F8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;F8.ZOrder" xml:space="preserve">
+    <value>79</value>
+  </data>
+  <data name="F9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="F9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.25pt</value>
+  </data>
+  <data name="F9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="F9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>626, 11</value>
+  </data>
+  <data name="F9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 32</value>
+  </data>
+  <data name="F9.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="F9.Text" xml:space="preserve">
+    <value>F9</value>
+  </data>
+  <data name="&gt;&gt;F9.Name" xml:space="preserve">
+    <value>F9</value>
+  </data>
+  <data name="&gt;&gt;F9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;F9.ZOrder" xml:space="preserve">
+    <value>78</value>
+  </data>
+  <data name="F10.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="F10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.25pt</value>
+  </data>
+  <data name="F10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="F10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 11</value>
+  </data>
+  <data name="F10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 32</value>
+  </data>
+  <data name="F10.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="F10.Text" xml:space="preserve">
+    <value>F10</value>
+  </data>
+  <data name="&gt;&gt;F10.Name" xml:space="preserve">
+    <value>F10</value>
+  </data>
+  <data name="&gt;&gt;F10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;F10.ZOrder" xml:space="preserve">
+    <value>77</value>
+  </data>
+  <data name="F11.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="F11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.25pt</value>
+  </data>
+  <data name="F11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="F11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>765, 11</value>
+  </data>
+  <data name="F11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 32</value>
+  </data>
+  <data name="F11.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="F11.Text" xml:space="preserve">
+    <value>F11</value>
+  </data>
+  <data name="&gt;&gt;F11.Name" xml:space="preserve">
+    <value>F11</value>
+  </data>
+  <data name="&gt;&gt;F11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;F11.ZOrder" xml:space="preserve">
+    <value>76</value>
+  </data>
+  <data name="F12.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="F12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.25pt</value>
+  </data>
+  <data name="F12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="F12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>830, 11</value>
+  </data>
+  <data name="F12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 32</value>
+  </data>
+  <data name="F12.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="F12.Text" xml:space="preserve">
+    <value>F12</value>
+  </data>
+  <data name="&gt;&gt;F12.Name" xml:space="preserve">
+    <value>F12</value>
+  </data>
+  <data name="&gt;&gt;F12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;F12.ZOrder" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="PrtSc.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="PrtSc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.25pt</value>
+  </data>
+  <data name="PrtSc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>895, 11</value>
+  </data>
+  <data name="PrtSc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 32</value>
+  </data>
+  <data name="PrtSc.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="PrtSc.Text" xml:space="preserve">
+    <value>PrtSc</value>
+  </data>
+  <data name="&gt;&gt;PrtSc.Name" xml:space="preserve">
+    <value>PrtSc</value>
+  </data>
+  <data name="&gt;&gt;PrtSc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PrtSc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PrtSc.ZOrder" xml:space="preserve">
+    <value>74</value>
+  </data>
+  <data name="Del.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Del.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.25pt</value>
+  </data>
+  <data name="Del.Location" type="System.Drawing.Point, System.Drawing">
+    <value>968, 11</value>
+  </data>
+  <data name="Del.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 32</value>
+  </data>
+  <data name="Del.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Del.Text" xml:space="preserve">
+    <value>Del</value>
+  </data>
+  <data name="&gt;&gt;Del.Name" xml:space="preserve">
+    <value>Del</value>
+  </data>
+  <data name="&gt;&gt;Del.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Del.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Del.ZOrder" xml:space="preserve">
+    <value>73</value>
+  </data>
+  <data name="Chnlg.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Chnlg.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 15.75pt</value>
+  </data>
+  <data name="Chnlg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 49</value>
+  </data>
+  <data name="Chnlg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 51</value>
+  </data>
+  <data name="Chnlg.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="Chnlg.Text" xml:space="preserve">
+    <value>TH</value>
+  </data>
+  <data name="&gt;&gt;Chnlg.Name" xml:space="preserve">
+    <value>Chnlg</value>
+  </data>
+  <data name="&gt;&gt;Chnlg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Chnlg.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Chnlg.ZOrder" xml:space="preserve">
+    <value>72</value>
+  </data>
+  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 12.749999pt</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 49</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 51</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>!   +
+1   ๅ</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>71</value>
+  </data>
+  <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 12.749999pt</value>
+  </data>
+  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 49</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 51</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>@   ๑
+2     /</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 12.749999pt</value>
+  </data>
+  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 49</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 51</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>#   ๒
+3   -</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="button4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 12.749999pt</value>
+  </data>
+  <data name="button4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 49</value>
+  </data>
+  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 51</value>
+  </data>
+  <data name="button4.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="button4.Text" xml:space="preserve">
+    <value>$   ๓
+4   ภ</value>
+  </data>
+  <data name="&gt;&gt;button4.Name" xml:space="preserve">
+    <value>button4</value>
+  </data>
+  <data name="&gt;&gt;button4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="button5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 12.749999pt</value>
+  </data>
+  <data name="button5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 49</value>
+  </data>
+  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 51</value>
+  </data>
+  <data name="button5.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="button5.Text" xml:space="preserve">
+    <value>%   ๔
+5    ถ</value>
+  </data>
+  <data name="&gt;&gt;button5.Name" xml:space="preserve">
+    <value>button5</value>
+  </data>
+  <data name="&gt;&gt;button5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="button6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 12.749999pt</value>
+  </data>
+  <data name="button6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 49</value>
+  </data>
+  <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 51</value>
+  </data>
+  <data name="button6.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="button6.Text" xml:space="preserve">
+    <value>^    ู
+6    ุ</value>
+  </data>
+  <data name="&gt;&gt;button6.Name" xml:space="preserve">
+    <value>button6</value>
+  </data>
+  <data name="&gt;&gt;button6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="button7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 12.749999pt</value>
+  </data>
+  <data name="button7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>464, 49</value>
+  </data>
+  <data name="button7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 51</value>
+  </data>
+  <data name="button7.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="button7.Text" xml:space="preserve">
+    <value>&amp;    ฿
+7    ึ</value>
+  </data>
+  <data name="&gt;&gt;button7.Name" xml:space="preserve">
+    <value>button7</value>
+  </data>
+  <data name="&gt;&gt;button7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="button8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 12.749999pt</value>
+  </data>
+  <data name="button8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>529, 49</value>
+  </data>
+  <data name="button8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 51</value>
+  </data>
+  <data name="button8.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="button8.Text" xml:space="preserve">
+    <value>*   ๕
+8   ค</value>
+  </data>
+  <data name="&gt;&gt;button8.Name" xml:space="preserve">
+    <value>button8</value>
+  </data>
+  <data name="&gt;&gt;button8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button8.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="button9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 12.749999pt</value>
+  </data>
+  <data name="button9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>594, 49</value>
+  </data>
+  <data name="button9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 51</value>
+  </data>
+  <data name="button9.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="button9.Text" xml:space="preserve">
+    <value>(   ๖
+9   ต</value>
+  </data>
+  <data name="&gt;&gt;button9.Name" xml:space="preserve">
+    <value>button9</value>
+  </data>
+  <data name="&gt;&gt;button9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button9.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="button0.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 12.749999pt</value>
+  </data>
+  <data name="button0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>659, 49</value>
+  </data>
+  <data name="button0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 51</value>
+  </data>
+  <data name="button0.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="button0.Text" xml:space="preserve">
+    <value>)   ๗
+0   จ</value>
+  </data>
+  <data name="&gt;&gt;button0.Name" xml:space="preserve">
+    <value>button0</value>
+  </data>
+  <data name="&gt;&gt;button0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button0.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button0.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="button10.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 12.749999pt</value>
+  </data>
+  <data name="button10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>724, 49</value>
+  </data>
+  <data name="button10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 51</value>
+  </data>
+  <data name="button10.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="button10.Text" xml:space="preserve">
+    <value>_   ๘
+-   ข</value>
+  </data>
+  <data name="&gt;&gt;button10.Name" xml:space="preserve">
+    <value>button10</value>
+  </data>
+  <data name="&gt;&gt;button10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button10.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="button11.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 12.749999pt</value>
+  </data>
+  <data name="button11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>789, 49</value>
+  </data>
+  <data name="button11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 51</value>
+  </data>
+  <data name="button11.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="button11.Text" xml:space="preserve">
+    <value>+   ๙
+=   ช</value>
+  </data>
+  <data name="&gt;&gt;button11.Name" xml:space="preserve">
+    <value>button11</value>
+  </data>
+  <data name="&gt;&gt;button11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button11.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="Home.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Home.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.25pt</value>
+  </data>
+  <data name="Home.Location" type="System.Drawing.Point, System.Drawing">
+    <value>968, 49</value>
+  </data>
+  <data name="Home.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 48</value>
+  </data>
+  <data name="Home.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="Home.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="&gt;&gt;Home.Name" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="&gt;&gt;Home.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Home.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Home.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="BackSp.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="BackSp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 15.75pt</value>
+  </data>
+  <data name="BackSp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>854, 49</value>
+  </data>
+  <data name="BackSp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 51</value>
+  </data>
+  <data name="BackSp.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="BackSp.Text" xml:space="preserve">
+    <value>BackSpace</value>
+  </data>
+  <data name="&gt;&gt;BackSp.Name" xml:space="preserve">
+    <value>BackSp</value>
+  </data>
+  <data name="&gt;&gt;BackSp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BackSp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BackSp.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="Tab.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Tab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 15.75pt</value>
+  </data>
+  <data name="Tab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 106</value>
+  </data>
+  <data name="Tab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 53</value>
+  </data>
+  <data name="Tab.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="Tab.Text" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="&gt;&gt;Tab.Name" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="&gt;&gt;Tab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Tab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Tab.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="button13.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="button13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>839, 106</value>
+  </data>
+  <data name="button13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="button13.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="button13.Text" xml:space="preserve">
+    <value>}   ,
+]   ล</value>
+  </data>
+  <data name="&gt;&gt;button13.Name" xml:space="preserve">
+    <value>button13</value>
+  </data>
+  <data name="&gt;&gt;button13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button13.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="button12.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="button12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>774, 106</value>
+  </data>
+  <data name="button12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="button12.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="button12.Text" xml:space="preserve">
+    <value>{   ฐ
+[   บ</value>
+  </data>
+  <data name="&gt;&gt;button12.Name" xml:space="preserve">
+    <value>button12</value>
+  </data>
+  <data name="&gt;&gt;button12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button12.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="P.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="P.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="P.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="P.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 106</value>
+  </data>
+  <data name="P.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="P.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="P.Text" xml:space="preserve">
+    <value>P   ญ
+     ย</value>
+  </data>
+  <data name="&gt;&gt;P.Name" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="&gt;&gt;P.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;P.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="O.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="O.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="O.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="O.Location" type="System.Drawing.Point, System.Drawing">
+    <value>644, 106</value>
+  </data>
+  <data name="O.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="O.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="O.Text" xml:space="preserve">
+    <value>O   ฯ
+     น</value>
+  </data>
+  <data name="&gt;&gt;O.Name" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="&gt;&gt;O.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;O.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;O.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="I.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="I.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="I.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="I.Location" type="System.Drawing.Point, System.Drawing">
+    <value>579, 106</value>
+  </data>
+  <data name="I.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="I.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="I.Text" xml:space="preserve">
+    <value>I   ณ
+     ร</value>
+  </data>
+  <data name="&gt;&gt;I.Name" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="&gt;&gt;I.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;I.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;I.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="U.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="U.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="U.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="U.Location" type="System.Drawing.Point, System.Drawing">
+    <value>514, 106</value>
+  </data>
+  <data name="U.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="U.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="U.Text" xml:space="preserve">
+    <value>U   ๊
+     ี</value>
+  </data>
+  <data name="&gt;&gt;U.Name" xml:space="preserve">
+    <value>U</value>
+  </data>
+  <data name="&gt;&gt;U.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;U.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;U.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="Y.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Y.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="Y.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Y.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 106</value>
+  </data>
+  <data name="Y.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="Y.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="Y.Text" xml:space="preserve">
+    <value>Y   ํ
+     ั</value>
+  </data>
+  <data name="&gt;&gt;Y.Name" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="&gt;&gt;Y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Y.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Y.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="T.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="T.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="T.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="T.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 106</value>
+  </data>
+  <data name="T.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="T.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="T.Text" xml:space="preserve">
+    <value>T   ธ
+     ะ</value>
+  </data>
+  <data name="&gt;&gt;T.Name" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="&gt;&gt;T.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;T.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;T.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="R.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="R.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="R.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="R.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 106</value>
+  </data>
+  <data name="R.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="R.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="R.Text" xml:space="preserve">
+    <value>R   ฑ
+     พ</value>
+  </data>
+  <data name="&gt;&gt;R.Name" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="&gt;&gt;R.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;R.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="E.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="E.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="E.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="E.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 106</value>
+  </data>
+  <data name="E.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="E.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="E.Text" xml:space="preserve">
+    <value>E   ฎ
+    ํา</value>
+  </data>
+  <data name="&gt;&gt;E.Name" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="&gt;&gt;E.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;E.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;E.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="W.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="W.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="W.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="W.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 106</value>
+  </data>
+  <data name="W.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="W.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="W.Text" xml:space="preserve">
+    <value>W   "
+     ไ</value>
+  </data>
+  <data name="&gt;&gt;W.Name" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="&gt;&gt;W.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;W.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;W.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="Q.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Q.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="Q.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Q.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 106</value>
+  </data>
+  <data name="Q.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="Q.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="Q.Text" xml:space="preserve">
+    <value>Q   ๐
+     ๆ</value>
+  </data>
+  <data name="&gt;&gt;Q.Name" xml:space="preserve">
+    <value>Q</value>
+  </data>
+  <data name="&gt;&gt;Q.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Q.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Q.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="button14.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="button14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>904, 106</value>
+  </data>
+  <data name="button14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="button14.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="button14.Text" xml:space="preserve">
+    <value>|   ฅ
+\   ฃ</value>
+  </data>
+  <data name="&gt;&gt;button14.Name" xml:space="preserve">
+    <value>button14</value>
+  </data>
+  <data name="&gt;&gt;button14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button14.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="BTEnd.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="BTEnd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.25pt</value>
+  </data>
+  <data name="BTEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>969, 106</value>
+  </data>
+  <data name="BTEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="BTEnd.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="BTEnd.Text" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="&gt;&gt;BTEnd.Name" xml:space="preserve">
+    <value>BTEnd</value>
+  </data>
+  <data name="&gt;&gt;BTEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BTEnd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BTEnd.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="PgUp.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="PgUp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.25pt</value>
+  </data>
+  <data name="PgUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>968, 167</value>
+  </data>
+  <data name="PgUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 48</value>
+  </data>
+  <data name="PgUp.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="PgUp.Text" xml:space="preserve">
+    <value>PgUp</value>
+  </data>
+  <data name="&gt;&gt;PgUp.Name" xml:space="preserve">
+    <value>PgUp</value>
+  </data>
+  <data name="&gt;&gt;PgUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PgUp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PgUp.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="PgDn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="PgDn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.25pt</value>
+  </data>
+  <data name="PgDn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>968, 224</value>
+  </data>
+  <data name="PgDn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 53</value>
+  </data>
+  <data name="PgDn.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="PgDn.Text" xml:space="preserve">
+    <value>PgDn</value>
+  </data>
+  <data name="&gt;&gt;PgDn.Name" xml:space="preserve">
+    <value>PgDn</value>
+  </data>
+  <data name="&gt;&gt;PgDn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PgDn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PgDn.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="button16.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="button16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>774, 167</value>
+  </data>
+  <data name="button16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="button16.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="button16.Text" xml:space="preserve">
+    <value>"   .
+'   ง</value>
+  </data>
+  <data name="&gt;&gt;button16.Name" xml:space="preserve">
+    <value>button16</value>
+  </data>
+  <data name="&gt;&gt;button16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button16.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button16.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="button15.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="button15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 166</value>
+  </data>
+  <data name="button15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="button15.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="button15.Text" xml:space="preserve">
+    <value>:   ซ
+;   ว</value>
+  </data>
+  <data name="&gt;&gt;button15.Name" xml:space="preserve">
+    <value>button15</value>
+  </data>
+  <data name="&gt;&gt;button15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button15.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="L.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="L.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="L.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="L.Location" type="System.Drawing.Point, System.Drawing">
+    <value>644, 166</value>
+  </data>
+  <data name="L.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="L.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="L.Text" xml:space="preserve">
+    <value>L   ศ
+     ส</value>
+  </data>
+  <data name="&gt;&gt;L.Name" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="&gt;&gt;L.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;L.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;L.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="K.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="K.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="K.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="K.Location" type="System.Drawing.Point, System.Drawing">
+    <value>579, 166</value>
+  </data>
+  <data name="K.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="K.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="K.Text" xml:space="preserve">
+    <value>K   ษ
+     า</value>
+  </data>
+  <data name="&gt;&gt;K.Name" xml:space="preserve">
+    <value>K</value>
+  </data>
+  <data name="&gt;&gt;K.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;K.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;K.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="J.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="J.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="J.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="J.Location" type="System.Drawing.Point, System.Drawing">
+    <value>514, 166</value>
+  </data>
+  <data name="J.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="J.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="J.Text" xml:space="preserve">
+    <value>J    ๋
+     ่</value>
+  </data>
+  <data name="&gt;&gt;J.Name" xml:space="preserve">
+    <value>J</value>
+  </data>
+  <data name="&gt;&gt;J.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;J.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;J.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="H.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="H.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="H.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="H.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 166</value>
+  </data>
+  <data name="H.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="H.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="H.Text" xml:space="preserve">
+    <value>H   ็
+      ้</value>
+  </data>
+  <data name="&gt;&gt;H.Name" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="&gt;&gt;H.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;H.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;H.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="G.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="G.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="G.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="G.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 166</value>
+  </data>
+  <data name="G.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="G.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="G.Text" xml:space="preserve">
+    <value>G   ฌ
+      เ</value>
+  </data>
+  <data name="&gt;&gt;G.Name" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="&gt;&gt;G.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;G.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;G.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="F.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="F.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="F.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="F.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 166</value>
+  </data>
+  <data name="F.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="F.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="F.Text" xml:space="preserve">
+    <value>F   โ
+     ด</value>
+  </data>
+  <data name="&gt;&gt;F.Name" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="&gt;&gt;F.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;F.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="D.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="D.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="D.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="D.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 166</value>
+  </data>
+  <data name="D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="D.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="D.Text" xml:space="preserve">
+    <value>D   ฏ
+     ก</value>
+  </data>
+  <data name="&gt;&gt;D.Name" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="&gt;&gt;D.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;D.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;D.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="S.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="S.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="S.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="S.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 166</value>
+  </data>
+  <data name="S.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="S.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="S.Text" xml:space="preserve">
+    <value>S   ฆ
+     ห</value>
+  </data>
+  <data name="&gt;&gt;S.Name" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="&gt;&gt;S.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;S.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;S.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="A.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="A.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="A.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 166</value>
+  </data>
+  <data name="A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="A.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="A.Text" xml:space="preserve">
+    <value>A   ฤ
+     ฟ</value>
+  </data>
+  <data name="&gt;&gt;A.Name" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="&gt;&gt;A.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;A.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;A.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="button19.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="button19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 224</value>
+  </data>
+  <data name="button19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="button19.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="button19.Text" xml:space="preserve">
+    <value>?   ฦ
+/   ฝ</value>
+  </data>
+  <data name="&gt;&gt;button19.Name" xml:space="preserve">
+    <value>button19</value>
+  </data>
+  <data name="&gt;&gt;button19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button19.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button19.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="button18.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="button18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>644, 224</value>
+  </data>
+  <data name="button18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="button18.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="button18.Text" xml:space="preserve">
+    <value>&gt;   ฬ
+.     ใ</value>
+  </data>
+  <data name="&gt;&gt;button18.Name" xml:space="preserve">
+    <value>button18</value>
+  </data>
+  <data name="&gt;&gt;button18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button18.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button18.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="button17.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="button17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>579, 224</value>
+  </data>
+  <data name="button17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="button17.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="button17.Text" xml:space="preserve">
+    <value>&lt;   ฒ
+,     ม</value>
+  </data>
+  <data name="&gt;&gt;button17.Name" xml:space="preserve">
+    <value>button17</value>
+  </data>
+  <data name="&gt;&gt;button17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button17.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button17.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="M.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="M.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="M.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="M.Location" type="System.Drawing.Point, System.Drawing">
+    <value>514, 224</value>
+  </data>
+  <data name="M.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="M.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="M.Text" xml:space="preserve">
+    <value>M   ?
+      ท</value>
+  </data>
+  <data name="&gt;&gt;M.Name" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="&gt;&gt;M.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;M.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;M.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="N.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="N.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="N.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="N.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 224</value>
+  </data>
+  <data name="N.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="N.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="N.Text" xml:space="preserve">
+    <value>N     ์ 
+       ื</value>
+  </data>
+  <data name="&gt;&gt;N.Name" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="&gt;&gt;N.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;N.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;N.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="B.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="B.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="B.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 224</value>
+  </data>
+  <data name="B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="B.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="B.Text" xml:space="preserve">
+    <value>B    ฺ
+       ิ</value>
+  </data>
+  <data name="&gt;&gt;B.Name" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="&gt;&gt;B.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;B.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="V.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="V.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="V.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="V.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 224</value>
+  </data>
+  <data name="V.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="V.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="V.Text" xml:space="preserve">
+    <value>V   ฮ
+     อ</value>
+  </data>
+  <data name="&gt;&gt;V.Name" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="&gt;&gt;V.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;V.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;V.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="C.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="C.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="C.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="C.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 224</value>
+  </data>
+  <data name="C.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="C.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="C.Text" xml:space="preserve">
+    <value>C   ฉ
+     แ</value>
+  </data>
+  <data name="&gt;&gt;C.Name" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="&gt;&gt;C.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;C.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;C.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="X.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="X.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="X.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="X.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 224</value>
+  </data>
+  <data name="X.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="X.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="X.Text" xml:space="preserve">
+    <value>X   )
+     ป</value>
+  </data>
+  <data name="&gt;&gt;X.Name" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="&gt;&gt;X.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;X.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;X.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="Z.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Z.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 14.9999981pt</value>
+  </data>
+  <data name="Z.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Z.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 224</value>
+  </data>
+  <data name="Z.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 53</value>
+  </data>
+  <data name="Z.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="Z.Text" xml:space="preserve">
+    <value>Z   (
+     ผ</value>
+  </data>
+  <data name="&gt;&gt;Z.Name" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="&gt;&gt;Z.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Z.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="BTEnter.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="BTEnter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 15.75pt</value>
+  </data>
+  <data name="BTEnter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>839, 165</value>
+  </data>
+  <data name="BTEnter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 54</value>
+  </data>
+  <data name="BTEnter.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="BTEnter.Text" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="&gt;&gt;BTEnter.Name" xml:space="preserve">
+    <value>BTEnter</value>
+  </data>
+  <data name="&gt;&gt;BTEnter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BTEnter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BTEnter.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="RShift.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="RShift.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 15.75pt</value>
+  </data>
+  <data name="RShift.Location" type="System.Drawing.Point, System.Drawing">
+    <value>774, 224</value>
+  </data>
+  <data name="RShift.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 53</value>
+  </data>
+  <data name="RShift.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="RShift.Text" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="&gt;&gt;RShift.Name" xml:space="preserve">
+    <value>RShift</value>
+  </data>
+  <data name="&gt;&gt;RShift.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RShift.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RShift.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="BTUp.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="BTUp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 15.75pt</value>
+  </data>
+  <data name="BTUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>908, 224</value>
+  </data>
+  <data name="BTUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 53</value>
+  </data>
+  <data name="BTUp.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="BTUp.Text" xml:space="preserve">
+    <value>↑</value>
+  </data>
+  <data name="&gt;&gt;BTUp.Name" xml:space="preserve">
+    <value>BTUp</value>
+  </data>
+  <data name="&gt;&gt;BTUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BTUp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BTUp.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="BTRight.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="BTRight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 15.75pt</value>
+  </data>
+  <data name="BTRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>968, 283</value>
+  </data>
+  <data name="BTRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 44</value>
+  </data>
+  <data name="BTRight.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="BTRight.Text" xml:space="preserve">
+    <value>→</value>
+  </data>
+  <data name="&gt;&gt;BTRight.Name" xml:space="preserve">
+    <value>BTRight</value>
+  </data>
+  <data name="&gt;&gt;BTRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BTRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BTRight.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="BTDown.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="BTDown.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 15.75pt</value>
+  </data>
+  <data name="BTDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>908, 283</value>
+  </data>
+  <data name="BTDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 44</value>
+  </data>
+  <data name="BTDown.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="BTDown.Text" xml:space="preserve">
+    <value>↓</value>
+  </data>
+  <data name="&gt;&gt;BTDown.Name" xml:space="preserve">
+    <value>BTDown</value>
+  </data>
+  <data name="&gt;&gt;BTDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BTDown.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BTDown.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="BTLeft.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="BTLeft.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 15.75pt</value>
+  </data>
+  <data name="BTLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>847, 283</value>
+  </data>
+  <data name="BTLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 44</value>
+  </data>
+  <data name="BTLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="BTLeft.Text" xml:space="preserve">
+    <value>←</value>
+  </data>
+  <data name="&gt;&gt;BTLeft.Name" xml:space="preserve">
+    <value>BTLeft</value>
+  </data>
+  <data name="&gt;&gt;BTLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BTLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BTLeft.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="RHnd.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="RHnd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 15.75pt</value>
+  </data>
+  <data name="RHnd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RHnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>626, 283</value>
+  </data>
+  <data name="RHnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 44</value>
+  </data>
+  <data name="RHnd.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="RHnd.Text" xml:space="preserve">
+    <value>Hnd</value>
+  </data>
+  <data name="&gt;&gt;RHnd.Name" xml:space="preserve">
+    <value>RHnd</value>
+  </data>
+  <data name="&gt;&gt;RHnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RHnd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RHnd.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 180</value>
+  </data>
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="checkBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Name" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="checkBox2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 249</value>
+  </data>
+  <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="checkBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="checkBox2.Text" xml:space="preserve">
+    <value>checkBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.Name" xml:space="preserve">
+    <value>checkBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="LShift.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="LShift.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 15.75pt</value>
+  </data>
+  <data name="LShift.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 224</value>
+  </data>
+  <data name="LShift.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 53</value>
+  </data>
+  <data name="LShift.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="LShift.Text" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="&gt;&gt;LShift.Name" xml:space="preserve">
+    <value>LShift</value>
+  </data>
+  <data name="&gt;&gt;LShift.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LShift.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LShift.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="checkBox3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 299</value>
+  </data>
+  <data name="checkBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="checkBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="checkBox3.Text" xml:space="preserve">
+    <value>checkBox3</value>
+  </data>
+  <data name="&gt;&gt;checkBox3.Name" xml:space="preserve">
+    <value>checkBox3</value>
+  </data>
+  <data name="&gt;&gt;checkBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Capslk.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Capslk.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 15.75pt</value>
+  </data>
+  <data name="Capslk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 165</value>
+  </data>
+  <data name="Capslk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 53</value>
+  </data>
+  <data name="Capslk.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="Capslk.Text" xml:space="preserve">
+    <value>CapsLk</value>
+  </data>
+  <data name="&gt;&gt;Capslk.Name" xml:space="preserve">
+    <value>Capslk</value>
+  </data>
+  <data name="&gt;&gt;Capslk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Capslk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Capslk.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="RAlt.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="RAlt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 15.75pt</value>
+  </data>
+  <data name="RAlt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>702, 283</value>
+  </data>
+  <data name="RAlt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 44</value>
+  </data>
+  <data name="RAlt.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="RAlt.Text" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="&gt;&gt;RAlt.Name" xml:space="preserve">
+    <value>RAlt</value>
+  </data>
+  <data name="&gt;&gt;RAlt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAlt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RAlt.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RCtrl.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="RCtrl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 15.75pt</value>
+  </data>
+  <data name="RCtrl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>774, 283</value>
+  </data>
+  <data name="RCtrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 44</value>
+  </data>
+  <data name="RCtrl.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="RCtrl.Text" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="&gt;&gt;RCtrl.Name" xml:space="preserve">
+    <value>RCtrl</value>
+  </data>
+  <data name="&gt;&gt;RCtrl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RCtrl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RCtrl.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LAlt.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="LAlt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 15.75pt</value>
+  </data>
+  <data name="LAlt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LAlt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 283</value>
+  </data>
+  <data name="LAlt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 44</value>
+  </data>
+  <data name="LAlt.TabIndex" type="System.Int32, mscorlib">
+    <value>173</value>
+  </data>
+  <data name="LAlt.Text" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="&gt;&gt;LAlt.Name" xml:space="preserve">
+    <value>LAlt</value>
+  </data>
+  <data name="&gt;&gt;LAlt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LAlt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LAlt.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Start.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Start.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 15.75pt</value>
+  </data>
+  <data name="Start.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Start.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 283</value>
+  </data>
+  <data name="Start.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 44</value>
+  </data>
+  <data name="Start.TabIndex" type="System.Int32, mscorlib">
+    <value>172</value>
+  </data>
+  <data name="Start.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="&gt;&gt;Start.Name" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="&gt;&gt;Start.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Start.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Start.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="LCtrl.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="LCtrl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 15.75pt</value>
+  </data>
+  <data name="LCtrl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LCtrl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 283</value>
+  </data>
+  <data name="LCtrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 44</value>
+  </data>
+  <data name="LCtrl.TabIndex" type="System.Int32, mscorlib">
+    <value>171</value>
+  </data>
+  <data name="LCtrl.Text" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="&gt;&gt;LCtrl.Name" xml:space="preserve">
+    <value>LCtrl</value>
+  </data>
+  <data name="&gt;&gt;LCtrl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LCtrl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LCtrl.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="checkBox4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 299</value>
+  </data>
+  <data name="checkBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="checkBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="checkBox4.Text" xml:space="preserve">
+    <value>checkBox4</value>
+  </data>
+  <data name="&gt;&gt;checkBox4.Name" xml:space="preserve">
+    <value>checkBox4</value>
+  </data>
+  <data name="&gt;&gt;checkBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkBox5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 299</value>
+  </data>
+  <data name="checkBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="checkBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>178</value>
+  </data>
+  <data name="checkBox5.Text" xml:space="preserve">
+    <value>checkBox5</value>
+  </data>
+  <data name="&gt;&gt;checkBox5.Name" xml:space="preserve">
+    <value>checkBox5</value>
+  </data>
+  <data name="&gt;&gt;checkBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Space.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Space.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH SarabunPSK, 15.75pt</value>
+  </data>
+  <data name="Space.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Space.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 283</value>
+  </data>
+  <data name="Space.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 44</value>
+  </data>
+  <data name="Space.TabIndex" type="System.Int32, mscorlib">
+    <value>179</value>
+  </data>
+  <data name="Space.Text" xml:space="preserve">
+    <value>Space</value>
+  </data>
+  <data name="&gt;&gt;Space.Name" xml:space="preserve">
+    <value>Space</value>
+  </data>
+  <data name="&gt;&gt;Space.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Space.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Space.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1035, 342</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

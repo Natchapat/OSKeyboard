@@ -1,0 +1,9 @@
+c:\users\alpaca_alice\documents\visual studio 2012\Projects\KeyboardTest\KeyboardTest\bin\Debug\KeyboardTest.exe.config
+C:\Users\Alpaca_Alice\documents\visual studio 2012\Projects\KeyboardTest\KeyboardTest\bin\Debug\KeyboardTest.exe
+C:\Users\Alpaca_Alice\documents\visual studio 2012\Projects\KeyboardTest\KeyboardTest\bin\Debug\KeyboardTest.pdb
+C:\Users\Alpaca_Alice\documents\visual studio 2012\Projects\KeyboardTest\KeyboardTest\obj\Debug\KeyboardTest.csprojResolveAssemblyReference.cache
+C:\Users\Alpaca_Alice\documents\visual studio 2012\Projects\KeyboardTest\KeyboardTest\obj\Debug\KeyboardTest.Form1.resources
+C:\Users\Alpaca_Alice\documents\visual studio 2012\Projects\KeyboardTest\KeyboardTest\obj\Debug\KeyboardTest.Properties.Resources.resources
+C:\Users\Alpaca_Alice\documents\visual studio 2012\Projects\KeyboardTest\KeyboardTest\obj\Debug\KeyboardTest.csproj.GenerateResource.Cache
+C:\Users\Alpaca_Alice\documents\visual studio 2012\Projects\KeyboardTest\KeyboardTest\obj\Debug\KeyboardTest.exe
+C:\Users\Alpaca_Alice\documents\visual studio 2012\Projects\KeyboardTest\KeyboardTest\obj\Debug\KeyboardTest.pdb
